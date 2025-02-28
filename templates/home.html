@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+                background-image:  url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=996&t=st=1712293330~exp=1712293930~hmac=87c79571b583faeffca10ccc7a0584b288c68fc3bf95da8cb883e71d23b0c96a');
+                background-size: cover;
+                background-color: white;
+        }
+        .logo{
+            width: 800px;
+            height: auto;
+            margin: 40px 350px;
+                }
+        .title{
+            font-size: 30px;
+        }
+       h1{  
+            position: absolute;
+            top: 35%;
+            left: 40%;
+            font-size: 30px;
+            text-align: center; 
+             
+        }
+        .okay{
+            position: absolute;
+            top: 33%;
+            left: 35%;
+        }
+        .container{
+            position: absolute;
+            top: 10%;
+            right: 43%;
+        }
+       
+        .proceed {
+            background-color: #876969; 
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: block; 
+            font-size: 16px;
+            margin-top: 450px;
+            margin-left: 650px; 
+            border-radius: 8px;
+        }
+        .proceed:hover{
+            background-color: grey;
+        }
+         /* Media Queries */
+         @media (max-width: 1024px) { /* For tablets */
+            .logo{
+                width: 600px; /* Smaller logo for smaller screens */
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 24px;
+                top: 30%;
+            }
+            .proceed {
+                margin-top: 250px;
+            }
+        }
+
+        @media (max-width: 768px) { /* For mobile devices */
+            .logo {
+                width: 80%; /* Even smaller logo */
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 20px;
+                top: 25%;
+            }
+            .proceed {
+                padding: 12px 24px;
+                font-size: 14px;
+                margin-top: 200px;
+            }
+        }
+
+        @media (max-width: 480px) { /* For very small devices */
+            h1 {
+                font-size: 18px;
+                top: 20%;
+            }
+            .proceed {
+                margin-top: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+            <img src="\static\gvplogo3.png" alt="logo" class="logo">
+    <h1>Welcome to our project</h1>
+   <div class="container"> 
+       <a href="/index"><button class="proceed">Lets test your Stress</button></a>
+    </div>
+</body>
+</html>
